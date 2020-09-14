@@ -1,2 +1,2 @@
 # vladhanzo-rsschool-cv
-https://vladhanzo.github.io/rsschool-cv/commits/gh-pages
+https://vladhanzo.github.io/rsschool-cv/cv
