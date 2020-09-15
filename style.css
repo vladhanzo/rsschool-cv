@@ -1,0 +1,70 @@
+html {
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    color: lightslategray;
+}
+
+a {
+    color:rgb(24, 24, 24);
+    font-size: 0.90em;
+}
+
+h1 {
+    color: black;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: black;
+    font-size: 1em;
+    margin-top: 0.1em;
+    margin-bottom: 0.4em;
+}
+
+.H {
+    color: rgb(0, 0, 0);
+}
+
+.contacts {
+    margin-bottom: 0.5em;
+}
+
+.contact {
+    display: flex;
+    
+}
+
+.contact_type {
+    min-width: 90px;
+}
+
+.experience {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.experience_name {
+    font-weight: bold;
+}
+
+.experience_date {
+    min-width: 185px;
+}
+
+@media (max-width: 575px) {
+    .experience {
+        display: block;
+    }
+}
+
+.cv {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 3em;
+}
