@@ -1,70 +1,120 @@
-html {
-    font-family: Roboto, sans-serif;
+::-webkit-scrollbar {
+	width: 0;
+}
+body {
+	margin: 0;
+	font-family: "Roboto", sans-serif;
+
+	font-size: 16pt;
+	line-height: 1.5;
+	color: rgb(14, 8, 8);
 }
 
 * {
-    color: lightslategray;
+	box-sizing: border-box;
 }
 
-a {
-    color:rgb(24, 24, 24);
-    font-size: 0.90em;
+.back {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+}
+.container {
+	height: 100%;
+	width: 100%;
+	max-width: 1920px;
+	margin: 0 auto;
 }
 
-h1 {
-    color: black;
-    font-size: 1em;
-    margin-bottom: 0;
+.main-block {
+	display: flex;
+	width: 100%;
+}
+
+.side-panel {
+	width: 30%;
+	color: #eeeeee;
+	background: linear-gradient(90deg, #ffffff, #000000);
+}
+
+.photo {
+	display: block;
+	margin: 15% auto;
+	width: 60%;
+	border-radius: 50%;
+
+	-webkit-transition: all 1.5s ease;
+	-moz-transition: all 1.5s ease;
+	-o-transition: all 1.5s ease;
+	-ms-transition: all 1.5s ease;
+	transition: all 1.5s ease;
+}
+.photo :hover {
+	width: 400px;
+	height: 400px;
+}
+
+.margin-main {
+	margin-left: 20%;
+}
+
+/* Section for left block */
+.section-LB {
+	margin-left: 20%;
+	margin-right: 20%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid #eeeeee;
+}
+
+.margin {
+	margin-left: 15%;
+}
+
+.link {
+	text-decoration: none;
+	color: #eeeeee;
+}
+
+.main-content {
+	width: 70%;
+	color: #333;
+	background: #eeeeee;
+}
+
+header {
+	font-size: 20px;
+	margin-top: 15%;
+	text-align: center;
+}
+
+/* Section for right block */
+.section-RB {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	text-align: justify;
+	text-indent: 1em;
 }
 
 h2 {
-    color: black;
-    font-size: 1em;
-    margin-top: 0.1em;
-    margin-bottom: 0.4em;
+	font-size: 40px;
+	margin-top: 15%;
+	text-align: center;
 }
 
-.H {
-    color: rgb(0, 0, 0);
+footer {
+	display: flex;
+	padding: 60px 40px;
+	justify-content: space-around;
+	align-content: center;
+	background: linear-gradient(90deg, #ffffff, #000000);
+	color: #eeeeee;
 }
 
-.contacts {
-    margin-bottom: 0.5em;
-}
-
-.contact {
-    display: flex;
-    
-}
-
-.contact_type {
-    min-width: 90px;
-}
-
-.experience {
-    display: flex;
-    margin-bottom: 2em;
-}
-
-.experience_name {
-    font-weight: bold;
-}
-
-.experience_date {
-    min-width: 185px;
-}
-
-@media (max-width: 575px) {
-    .experience {
-        display: block;
-    }
-}
-
-.cv {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-section {
-    margin-bottom: 3em;
+.rs-logo {
+	display: block;
+	height: 120px;
+	width: 120px;
+	background: url(/CV/files/rs_school_js.svg) no-repeat;
+	background-size: contain;
 }
