@@ -42,16 +42,14 @@ body {
 	margin: 15% auto;
 	width: 60%;
 	border-radius: 50%;
-
-	-webkit-transition: all 1.5s ease;
-	-moz-transition: all 1.5s ease;
-	-o-transition: all 1.5s ease;
-	-ms-transition: all 1.5s ease;
-	transition: all 1.5s ease;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;
 }
-.photo :hover {
-	width: 400px;
-	height: 400px;
+.photo:hover {
+	width: 70%;
 }
 
 .margin-main {
@@ -60,19 +58,26 @@ body {
 
 /* Section for left block */
 .section-LB {
+	color: rgb(66, 66, 66);
 	margin-left: 20%;
 	margin-right: 20%;
-	padding-bottom: 2%;
-	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 1%;
+	text-decoration: underline;
 }
 
 .margin {
+	color: rgb(66, 66, 66);
 	margin-left: 15%;
 }
 
 .link {
+	color: rgb(66, 66, 66);
 	text-decoration: none;
-	color: #eeeeee;
+}
+
+.link:hover {
+	color: #000000;
+	text-decoration: underline;
 }
 
 .main-content {
@@ -92,7 +97,7 @@ header {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 5%;
-	text-align: justify;
+	text-align: center;
 	text-indent: 1em;
 }
 
@@ -112,9 +117,14 @@ footer {
 }
 
 .rs-logo {
-	display: block;
+	display: flex;
 	height: 120px;
 	width: 120px;
-	background: url(/CV/files/rs_school_js.svg) no-repeat;
+	background: url(files/rs_school_js.svg) no-repeat;
 	background-size: contain;
+}
+
+.rs-logo:hover {
+	width: 125px;
+	height: 125px;
 }
